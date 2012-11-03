@@ -36,12 +36,12 @@ your virtual environment.
     
 You might get an error with the postgress install but you can comment that lines out
 
-#psycopg2==2.4.5
+psycopg2==2.4.5
 
 Make sure to uncomment it when deploying to Gondor so that your database will run!
 
-
 modify gondor.yml to add in your gondor site key 
+You may also need to change projectname to whatever your project is
 
 
     git init
