@@ -2,7 +2,7 @@
 key: <site_key>
 
 # Version control system used locally for your project.
-vcs: <vcs>
+vcs: git
 
 # Framework to use on Gondor.
 framework: wsgi
