@@ -97,6 +97,7 @@ TEMPLATE_CONTEXT_PROCESSORS = [
     "django.contrib.messages.context_processors.messages",
     "pinax_utils.context_processors.settings",
     "account.context_processors.account",
+    "{{ project_name }}.context_processors.settings",
 ]
 
 
